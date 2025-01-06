@@ -18,7 +18,7 @@
                         <p>Carregamento instantâneo para manter seus usuários conectados.</p>
                     </div>
                     <div class="feature-item">
-                        <h4>Confiável</h4>
+                        <h4>Confiável!</h4>
                         <p>Funciona offline para uma experiência contínua.</p>
                     </div>
                     <div class="feature-item">
