@@ -6,9 +6,15 @@ export default defineNuxtConfig({
     pwa: {
         manifest: {
             name: "Nuxt 3 Teste Pwa",
-            short_name: "Nuxt 3 Teste Pwa",
-            description: "Testando Pwa",
-            theme_color: "black",
+            short_name: "Nuxt 3 Teste",
+            start_url: "/",
+            display: "standalone",
+            orientation: "portrait-primary",
+            background_color: "#ffffff",
+            lang: "pt-br",
+            scope: "/",
+            description: "Testando Progressive Web App com Nuxt 3",
+            theme_color: "#000000",
             icons:[
                 {
                     src: "/icons/icon_144x144.png",
@@ -28,7 +34,10 @@ export default defineNuxtConfig({
                     type: 'image/png'
 
                 },
-            ]
+            ],
+            dir: "ltr",
+            prefer_related_applications: false,
+            related_applications: [],
         },
         workbox: {
             navigateFallback: "/",

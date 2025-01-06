@@ -50,7 +50,7 @@
 .header {
 	width: 100%;
 	padding: 20px;
-	background-color: #ff5722;
+	background-color: red;
 	color: white;
 	text-align: center;
 }
