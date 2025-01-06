@@ -2,6 +2,7 @@
     <div class="container">
         <header class="header">
             <h1>Projeto PWA em Nuxt 3</h1>
+			<img src="/icons/icon_192x192.png" alt="Icone">
         </header>
         <main class="main">
             <section class="hero">
