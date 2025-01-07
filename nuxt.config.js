@@ -35,9 +35,16 @@ export default defineNuxtConfig({
             screenshots: [
                 {
                     src: "/screenshots/image_1.png",
-                    sizes: "2880x1800",
+                    sizes: "765x829",
                     type: "image/png",
                     description: "image/png"
+                },
+                {
+                    src: "/screenshots/image_1.png",
+                    sizes: "765x829",
+                    type: "image/png",
+                    description: "image/png",
+                    form_factor: "wide"
                 }
             ],
             shortcuts: [
@@ -68,7 +75,11 @@ export default defineNuxtConfig({
                 }
             ],
             iarc_rating_id: "12",
-            display_override: "window-controls-overlay"
+            display_override: [
+                "window-controls-overlay",
+                "standalone",
+                "browser"
+            ]
         },
         workbox: {
             navigateFallback: "/",
